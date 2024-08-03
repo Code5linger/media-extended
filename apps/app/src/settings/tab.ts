@@ -248,7 +248,7 @@ export class MxSettingTabs extends PluginSettingTab {
       );
 
     const altCfg = new Setting(container)
-      .setName("Altnernative behavior")
+      .setName("Alternative Behaviour")
       .addDropdown((d) =>
         d
           .addOptions(options)
